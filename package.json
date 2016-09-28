@@ -1,0 +1,22 @@
+{
+  "name": "tri-team-giessen.de",
+  "version": "1.0.0",
+  "description": "Kirby is a file-based CMS. Easy to setup. Easy to use. Flexible as hell.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PlaceWorkersGmbH/tri-team-giessen.de.git"
+  },
+  "author": "Nils Neumann <neumann@placeworkers.com> (http://der-zyklop.de)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PlaceWorkersGmbH/tri-team-giessen.de/issues"
+  },
+  "scripts": {
+    "start": "php -S localhost:1337"
+  },
+  "homepage": "https://github.com/PlaceWorkersGmbH/tri-team-giessen.de#readme"
+}
