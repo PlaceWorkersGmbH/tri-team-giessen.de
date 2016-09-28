@@ -5,7 +5,7 @@
     </div>
 
     <div class="colophon">
-      <a href="http://getkirby.com/made-with-kirby-and-love">Made with Kirby and <b>♥</b></a>
+      Realisierung <a href="http://placeworkers.com/">PlaceWorkers GmbH</a> | <a href="<?php echo url('impressum') ?>">Impressum</a>
     </div>
 
   </footer>
