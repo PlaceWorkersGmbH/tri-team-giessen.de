@@ -1,0 +1,28 @@
+Title: Beitragsordnung
+
+----
+
+Text: Definition "aktives Mitglied":Aktives Mitglied ist, wer mindestens einmal pro Jahr am Training teilnimmt oder andere Vergünstigungen des Vereins, wie z. B. Zuschüsse zu Trainingsmaßnahmen, Vereinskleidung oder Startgeldrückerstattung in Anspruch nimmt. Im Zweifel entscheidet der Vorstand nach Einzelfallprüfung.Folgende Beiträge wurden festgesetzt:
+
+| Kategorie         | Monatsbeitrag ab 2013 | Jahresbeitrag |
+| ----------------- | --------------------- | ------------- |
+| Schüler           | 2,40 EUR              | 28,80 EUR     |
+| passives Mitglied | 3,60 EUR              | 43,20 EUR     |
+| aktives Mitglied  | 6,00 EUR              | 72,00 EUR     |
+| Familien          | 12,00 EUR             | 144,00 EUR    |
+
+
+
+Der Monatsbeitrag dient also Grundlage zu Errechnung des Jahresbeitrages. Beim Eintritt neuer Mitglieder vom 1.1. bis zum 30.6. wird der jeweilige Jahresbeitrag zu 100% eingezogen, bei Eintritten neuer Mitglieder von 1.7. bis 31.12. werden 50% des jeweiligen Jahresbeitrages eingezogen.
+
+Die Kosten für den DTU Startpass werden durch den Hessischen Triathlon Verband (HTV) festgesetzt.
+
+| DTU Startpass     | Zeitraum | 2012      | ab 2013      |
+| ----------------- | -------- | --------- | ---------    |
+| Jugend B          | jährlich | 16,50 EUR |              |
+| Jugend A          | jährlich | 16,50 EUR |              | 
+| Junioren          | jährlich | 16,50 EUR |              |
+| Erwachsene        | jährlich | 35,00 EUR | 36,50 EUR    |
+| Ersatzstartpass   | Antrag   | 50 % der Startpasskosten | |
+
+Siehe neue Beitragsordnung des HTV: [DTU-Verbandsrat - Zusatzversicherung](http://www.hessischer-triathlon-verband.de/index.php?id=News&id2=Meldung&Meldung=394).
