@@ -5,6 +5,6 @@ firstname: Nils
 lastname: ""
 email: neumann@placeworkers.com
 password: >
-  $2a$10$Wm8I3BF/iAG5FD/9UMfag.9j59r4Ah6PMD3WxOJwwQ6Zk6Fecwyg.
+  $2a$10$PGHOIx54hRdT0kxCSazH0.lxFTN1h4DlUJvCz.4TPLz15hrQLGu8e
 language: en
 role: admin
