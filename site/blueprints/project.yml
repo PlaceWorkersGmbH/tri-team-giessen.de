@@ -6,8 +6,8 @@ fields:
   title:
     label: Title
     type:  text
-  year:
-    label: Year
+  date:
+    label: Date
     type:  text
   text:
     label: Text

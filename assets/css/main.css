@@ -69,7 +69,7 @@ a {
   transition: color .3s, background .3s, border .3s;
 }
 a:hover {
-  color: red;
+  color: #6c888f;
 }
 
 
@@ -92,10 +92,10 @@ html {
 }
 body {
   margin: 0 auto;
-  font-size: 1.25em;
+  font-size: 1.1em;
   line-height: 1.5em;
   padding: 1.5em;
-  max-width: 50em;
+  max-width: 70em;
   background: #fff;
   color: #222;
 }
@@ -104,7 +104,7 @@ body {
 /* Header
 -------------------------------------------------- */
 .header {
-  border-bottom: 2px solid red;
+  border-bottom: 2px solid #6c888f;
   margin-bottom: 1.5em;
 }
 .logo {
@@ -112,7 +112,7 @@ body {
   margin-bottom: 1.5em;
 }
 .logo img {
-  width: 2em;
+/*  width: 13em;*/
 }
 
 
@@ -123,11 +123,11 @@ body {
   color: #222;
 }
 .menu a:hover {
-  color: red;
+  color: #6c888f;
   text-decoration: none;
 }
 .menu .active {
-  color: red;
+  color: #6c888f;
 }
 .menu li {
   list-style: none;
@@ -210,7 +210,7 @@ h2 {
   line-height: 1.25em;
   font-weight: 300;
   margin-bottom: .5em;
-  color: red;
+  color: #6c888f;
 }
 h3 {
   font-size: 1.4em;
@@ -223,7 +223,7 @@ h4 {
   font-weight: 600;
   line-height: 1.5em;
   margin-bottom: .5em;
-  color: red;
+  color: #6c888f;
 }
 h1 a, h2 a, h3 a, h4 a {
   color: inherit;
@@ -236,7 +236,7 @@ h1 a, h2 a, h3 a, h4 a {
 -------------------------------------------------- */
 .main {
   padding-bottom: 1.5em;
-  border-bottom: 2px solid red;
+  border-bottom: 2px solid #6c888f;
 }
 .main hr {
   margin: 3em 0;
@@ -271,13 +271,42 @@ h1 a, h2 a, h3 a, h4 a {
   float: left;
   list-style: none;
   margin-right: 2em;
-  color: red;
+  color: #6c888f;
 }
 .meta li b {
   font-weight: 400;
   color: #000;
   padding-right: .25em;
 }
+
+
+/* Mood Image
+-------------------------------------------------- */
+
+.mood-image {
+  margin-bottom: 2em;
+}
+
+
+/* Sponsors
+-------------------------------------------------- */
+
+.sponsors {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2em;
+/*  background: #f3f3f3;*/
+  border: 2px solid #ddd;
+  padding: 1em;
+}
+
+.sponsors .sponsor {
+  flex: 1 1 auto;
+}
+.sponsors .sponsor img {
+  margin: 0 auto;
+}
+
 
 
 /* Project teaser
@@ -289,6 +318,18 @@ h1 a, h2 a, h3 a, h4 a {
   margin-bottom: 1.5em;
   list-style: none;
 }
+a.teaser-img {
+  display: block;
+  border: none;
+  margin-bottom: 1em;
+}
+a.teaser-img img {
+  transition: 0.2s;
+}
+a.teaser-img:hover img {
+  box-shadow: 0 0.3em 20px rgba(0,0,0,.3);
+  transform: translateY(-0.3em);
+}
 @media screen and (min-width: 50em) {
   .teaser li {
     float: left;
@@ -299,6 +340,8 @@ h1 a, h2 a, h3 a, h4 a {
     margin-left: 0;
   }
 }
+
+
 
 
 /* Next/Prev nav
@@ -330,6 +373,6 @@ h1 a, h2 a, h3 a, h4 a {
   float: right;
 }
 .colophon a b {
-  color: red;
+  color: #6c888f;
   padding-left: .25em;
 }
