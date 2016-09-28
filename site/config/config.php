@@ -73,3 +73,6 @@ c::set('languages', array(
 ));
 
 c::set('language.detect', true);
+
+
+c::set('markdown.extra', true);
