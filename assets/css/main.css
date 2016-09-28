@@ -118,6 +118,10 @@ body {
 
 /* Navigation
 -------------------------------------------------- */
+.menu {
+  margin: 0.8em;
+}
+
 .menu a {
   display: block;
   color: #222;
