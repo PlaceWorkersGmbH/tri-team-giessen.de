@@ -114,8 +114,10 @@ body {
 /* Header
 -------------------------------------------------- */
 .header {
+/*
   border-bottom: 2px solid #6c888f;
   margin-bottom: 1.5em;
+*/
 }
 .logo {
   display: block;
