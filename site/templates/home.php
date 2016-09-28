@@ -17,7 +17,7 @@
     <hr>
 -->
 
-    <?php snippet('projects') ?>
+    <?php snippet('articles') ?>
 
   </main>
 
