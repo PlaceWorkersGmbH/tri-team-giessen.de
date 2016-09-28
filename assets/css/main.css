@@ -295,8 +295,7 @@ h1 a, h2 a, h3 a, h4 a {
   display: flex;
   align-items: center;
   margin-bottom: 2em;
-/*  background: #f3f3f3;*/
-  border: 2px solid #ddd;
+  background: #f3f3f3;
   padding: 1em;
 }
 
