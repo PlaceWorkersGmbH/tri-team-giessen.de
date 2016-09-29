@@ -379,3 +379,10 @@ a.teaser-img:hover img {
   color: #6c888f;
   padding-left: .25em;
 }
+
+
+/* Article
+-------------------------------------------------- */
+.subtitle {
+  font-style: italic;
+}
