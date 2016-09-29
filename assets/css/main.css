@@ -404,9 +404,18 @@ a.teaser-img:hover img {
   margin: 0 1em;
   list-style: none;
 }
+
+
 /* Member
 -------------------------------------------------- */
 
 .member img {
+  float: right;
+}
+
+/* Bad
+-------------------------------------------------- */
+
+.bad img {
   float: right;
 }

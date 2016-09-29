@@ -46,7 +46,7 @@
               </div>
               <div>
                 <?php if ($member->image() != ''): ?>
-                  <?= $page->images($member->image()) ?>
+                  <?= $page->images()->find($member->image()) ?>
                 <?php endif ?>
               </div>
             </div>

@@ -1,5 +1,6 @@
-title: Page
-pages: true
+title: Standard
+pages:
+  template: default
 files: true
 fields:
   title:
