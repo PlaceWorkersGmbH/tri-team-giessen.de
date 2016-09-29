@@ -58,7 +58,37 @@ footer, header, hgroup, main, nav, section, summary {
 img {
   display: block;
   max-width: 100%;
+  margin: 0 auto;
 }
+
+
+/* Table
+-------------------------------------------------- */
+table {
+  width: 100%;
+  margin-bottom: 2em;
+  border-spacing: 0;
+}
+table tr > * {
+  border-bottom: 2px solid #eee;
+  padding: 0.3em 0;
+}
+table th {
+  padding: 0.4em 0.2em;
+  border-bottom: none;
+  text-align: left;
+}
+table thead {
+  background: #f3f3f3;
+}
+
+/* Paragraphs
+-------------------------------------------------- */
+/*
+p {
+  max-width: 40em;
+}
+*/
 
 
 /* Links
@@ -104,8 +134,10 @@ body {
 /* Header
 -------------------------------------------------- */
 .header {
+/*
   border-bottom: 2px solid #6c888f;
   margin-bottom: 1.5em;
+*/
 }
 .logo {
   display: block;
@@ -145,37 +177,6 @@ body {
   font-weight: 600;
 }
 
-.submenu {
-  position: absolute;
-  z-index: 1;
-  display: none;
-  left: 1em;
-}
-.submenu:before {
-  position: absolute;
-  z-index: -1;
-  content: '';
-  top: -.5em;
-  left: 0;
-  border-top: .5em solid transparent;
-  border-bottom: .5em solid transparent;
-  border-left: .5em solid #222;
-}
-.submenu li {
-  border-bottom: 1px solid #444;
-}
-.submenu a {
-  padding: .5em 1.5em;
-  font-size: .9em;
-  font-weight: 300;
-  color: #fff;
-  background: #222;
-  white-space: nowrap;
-}
-.submenu a:hover {
-  background: #333;
-  color: #fff;
-}
 
 @media screen and (min-width: 40em) {
   body {
@@ -297,28 +298,34 @@ h1 a, h2 a, h3 a, h4 a {
 
 .sponsors {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   margin-bottom: 2em;
   background: #f3f3f3;
-  padding: 1em;
+  padding: 0.6em;
 }
 
 .sponsors .sponsor {
   flex: 1 1 auto;
 }
 .sponsors .sponsor img {
-  margin: 0 auto;
+  margin: 0.2em auto;
+  padding: 0.2em;
 }
 
 
 
 /* Project teaser
 -------------------------------------------------- */
-.teaser {
+ul.teaser {
+  display: flex;
+  flex-wrap: wrap;
   list-style: none;
+  margin: 0 -1em;
 }
 .teaser li {
-  margin-bottom: 1.5em;
+  flex: 1 1 30%;
+  margin: 0 1em 3em;
   list-style: none;
 }
 a.teaser-img {
@@ -328,20 +335,13 @@ a.teaser-img {
 }
 a.teaser-img img {
   transition: 0.2s;
+  border-radius: 4px;
 }
 a.teaser-img:hover img {
   box-shadow: 0 0.3em 20px rgba(0,0,0,.3);
   transform: translateY(-0.3em);
 }
 @media screen and (min-width: 50em) {
-  .teaser li {
-    float: left;
-    width: 30%;
-    margin-left: 5%;
-  }
-  .teaser li:first-child {
-    margin-left: 0;
-  }
 }
 
 

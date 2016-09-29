@@ -1,11 +1,11 @@
-<h2>Aktuelles</h2>
+<h2>Neuigkeiten</h2>
 
 <ul class="teaser cf">
-  <?php foreach($site->pages('projects')->children()->visible()->limit(3) as $project): ?>
+  <?php foreach($articles as $project): ?>
   <li>
     <?php if($image = $project->images()->sortBy('sort', 'asc')->first()): ?>
       <a class="teaser-img" href="<?php echo $project->url() ?>">
-        <?= thumb($image, array('width' => 500, 'height' => 300, 'crop' => true)) ?>
+        <?= thumb($image, array('width' => 700, 'height' => 420, 'crop' => true)) ?>
       </a>
     <?php endif ?>
     <h5><?= $project->date('d.m.Y') ?></h5>

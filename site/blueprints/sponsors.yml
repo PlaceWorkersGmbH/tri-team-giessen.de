@@ -1,5 +1,5 @@
-title: Home
-pages: true
+title: Sponsors
+pages: false
 fields:
   title:
     label: Title
@@ -7,3 +7,8 @@ fields:
   text:
     label: Text
     type:  textarea
+files:
+  fields:
+    link:
+      label: Link
+      type: text
