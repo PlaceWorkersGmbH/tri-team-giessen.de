@@ -1,5 +1,5 @@
 title: Article
-pages: true
+pages: false
 fields:
   title:
     label: Titel

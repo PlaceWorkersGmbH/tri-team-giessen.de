@@ -6,3 +6,6 @@ password: >
 email: schikunow@placeworkers.com
 language: de
 role: admin
+history:
+  - >
+    articles/neuigkeiten/vincent-groesser-sichert-sich-vize-hessentitel-im-triathlon
