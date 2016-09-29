@@ -1,0 +1,27 @@
+Title: Links
+
+----
+
+Text: 
+
+#### LGV Marathon Giessen
+(link: http://www.lgv-marathon.de text: www.lgv-marathon.de)
+ 
+#### MTV 1846 Gießen
+(link: http://www.mtv-giessen.de text: www.mtv-giessen.de)
+ 
+#### FITALIS + AKTIVITA
+Das Fitness- und Gesundheitszentrum in Wettenberg
+(link: http://www.fitalis-wettenberg.de text: www.fitalis-wettenberg.de)
+
+#### Footpower - Jahrling
+(link: http://www.footpower.de text: www.footpower.de)
+ 
+#### AS LahnLaender Lahnau e.V.
+(link: http://www.lahnlaender.de text: www.lahnlaender.de)
+ 
+#### Sport Point Gießen
+(link: http://www.sport-point-giessen.de text: www.sport-point-giessen.de)
+ 
+#### TSV Krofdorf / Abt Triathlon
+(link: http://www.tsv-krofdorf-gleiberg.de text: www.tsv-krofdorf-gleiberg.de)
