@@ -1,0 +1,17 @@
+title: Article
+pages: true
+fields:
+  title:
+    label: Titel
+    type:  text
+  date:
+    label: Datum
+    type:  date
+    buttons: false
+  subtitle:
+    label: Untertitel
+    type:  textarea
+    buttons: false
+  text:
+    label: Text
+    type:  textarea
