@@ -342,7 +342,7 @@ a.teaser-img {
 }
 a.teaser-img img {
   transition: 0.2s;
-  border-radius: 4px;
+  border-radius: 5px;
 }
 a.teaser-img:hover img {
   box-shadow: 0 0.3em 20px rgba(0,0,0,.3);
