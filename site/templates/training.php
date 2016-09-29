@@ -22,7 +22,7 @@
         <?php if ($bad->link() != ''): ?>
           <a class="bad card" href="<?= $bad->link() ?>">
         <?php else: ?>
-          <div class="bad card">
+          <div class="bad">
         <?php endif ?>
           <h4>
             <?php echo($bad->title()) ?>

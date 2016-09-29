@@ -47,7 +47,7 @@ Beader:
   title: Hallenbad Lollar
   link: http://lollar.dlrg.de/hallenbad.html
   text: |
-    Ostenstraße 3 (Clemens-Brentano-Europa-Schule)
+    Ostenstraße 3
     35457 Lollar
     
     Telefon: 0 64 06 - 73 238
