@@ -1,11 +1,15 @@
-title: Articles
+title: Article
 pages: true
 fields:
   title:
-    label: Title
+    label: Titel
     type:  text
+  date:
+    label: Datum
+    type:  date
+    buttons: false
   subtitle:
-    label: Subtitle
+    label: Untertitel
     type:  textarea
     buttons: false
   text:
