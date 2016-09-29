@@ -328,11 +328,11 @@ ul.teaser {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
-  margin: 0 -2em;
+  margin: 0 -1em;
 }
 .teaser li {
   flex: 1 1 30%;
-  margin: 0;
+  margin: 0 1em 3em;
   list-style: none;
 }
 a.teaser-img {
@@ -340,7 +340,14 @@ a.teaser-img {
   border: none;
   margin-bottom: 1em;
 }
-
+a.teaser-img img {
+  transition: 0.2s;
+  border-radius: 4px;
+}
+a.teaser-img:hover img {
+  box-shadow: 0 0.3em 20px rgba(0,0,0,.3);
+  transform: translateY(-0.3em);
+}
 
 
 
