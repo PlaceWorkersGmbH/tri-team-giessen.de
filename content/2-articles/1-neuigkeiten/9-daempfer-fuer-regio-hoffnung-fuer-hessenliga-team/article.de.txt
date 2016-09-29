@@ -1,11 +1,12 @@
 Title: Dämpfer für Regio-, Hoffnung für Hessenliga-Team
+
 ----
 
 Date: 2015-08-10
 
 ----
 
-Text: _Mit unterschiedlichen Gefühlslagen haben die beiden Herrenmannschaften ihr jeweils drittes Saisonrennen in Fuldatal beendet: Die Regionalligamannschaft muss Hoffnungen auf den Aufstieg in die 2. Bundesliga begraben, die Mannschaft der 2. Hessenliga darf aber wieder auf den Klassenerhalt hoffen._
+Text: 
 
 **Regionalliga: Meisterschaftsträume beendet**
 
@@ -24,3 +25,7 @@ Auch die zweite Gießener Herren-Mannschaft konnte an diesem Wochenende nur 4 At
 Besonders Jan Janiczek, der sich aufgrund einer Blinddarm OP im Frühjahr und hoher Arbeitsbelastung im Studium kaum auf die Wettkämpfe des Jahres 2015 vorbereiten konnte, kam dabei an seine Grenzen, mobilisierte aber die letzten Kräfte, um mit der recht homogenen Teamleistung der übrigen Starter mithalten zu können und der Mannschaft ein gutes Ergebnis zu ermöglichen. Jakob Lorenz lieferte in seinem ersten Triathlon-Ligawettkampf eine Riesenleistung ab, was vermuten lässt, dass man von ihm in seinem nächsten Triathlonjahr noch mehr hören wird. Frank Lotz komplettierte das Teamergebnis, sodass die Mannschaft einen akzeptablen 7. Platz (von 11) in der 2. HTL belegen konnte. Damit liegt das "rettende Ufer" im Kampf um den Klassenerhalt für das Tri-Team vor dem letzten Rennen in Rodgau wieder in Sichtweite.
 
 (link: http://www.triathlon-service.de/ergebnisse/liste.php?nr=5303 text:Vollständige Ergebnisse 2. Hessenliga popup:yes)
+
+----
+
+Subtitle: Mit unterschiedlichen Gefühlslagen haben die beiden Herrenmannschaften ihr jeweils drittes Saisonrennen in Fuldatal beendet: Die Regionalligamannschaft muss Hoffnungen auf den Aufstieg in die 2. Bundesliga begraben, die Mannschaft der 2. Hessenliga darf aber wieder auf den Klassenerhalt hoffen.
