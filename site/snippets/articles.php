@@ -1,4 +1,4 @@
-<h2>Neuigkeiten</h2>
+<h2>Neuigkeiten aus dem Verein</h2>
 
 <ul class="teaser cf">
   <?php foreach($articles as $project): ?>
@@ -10,7 +10,7 @@
       <?php endif ?>
       <h5><?= $project->date('d.m.Y') ?></h5>
       <h3><a href="<?php echo $project->url() ?>"><?php echo $project->title()->html() ?></a></h3>
-      <p><?php echo $project->text()->excerpt(200) ?> <a href="<?php echo $project->url() ?>">read&nbsp;more&nbsp;→</a></p>
+      <p><?php echo $project->text()->excerpt(200) ?> <a href="<?php echo $project->url() ?>">weiterlesen&nbsp;→</a></p>
   </li>
   <?php endforeach ?>
 </ul>
