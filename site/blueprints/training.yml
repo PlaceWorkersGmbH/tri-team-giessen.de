@@ -6,7 +6,10 @@ fields:
     label: Title
     type:  text
   text:
-    label: Text
+    label: Text 1
+    type:  textarea
+  text2:
+    label: Text 2
     type:  textarea
   beader:
     label: Hallen- und Freibäder in der Region

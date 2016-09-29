@@ -9,8 +9,3 @@ password: >
 language: en
 role: admin
 history:
-  - kontakt
-  - links
-  - training
-  - verein/startpassantrag
-  - verein/aufnahmeantrag

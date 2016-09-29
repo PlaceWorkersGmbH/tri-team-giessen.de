@@ -262,12 +262,15 @@ h1 a, h2 a, h3 a, h4 a {
 }
 
 /* Text blocks */
+.text {
+  margin-bottom: 2em;
+}
 .text ul,
 .text ol {
   margin-left: 1em;
 }
 
-.image {
+.text .image {
   margin-bottom: 2em;
 }
 
@@ -345,8 +348,6 @@ a.teaser-img:hover img {
   box-shadow: 0 0.3em 20px rgba(0,0,0,.3);
   transform: translateY(-0.3em);
 }
-@media screen and (min-width: 50em) {
-}
 
 
 
@@ -397,14 +398,11 @@ a.teaser-img:hover img {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
-  margin: 0 -1em;
 }
 .flex > * {
-  flex: 1 1 30%;
-  margin: 0 1em;
+  flex: 1 1 280px;
   list-style: none;
 }
-
 
 /* Member
 -------------------------------------------------- */
@@ -416,6 +414,36 @@ a.teaser-img:hover img {
 /* Bad
 -------------------------------------------------- */
 
-.bad img {
-  float: right;
+.baeder {
+  margin: 0 -1em;
+}
+.baeder a {
+  border: none;
+  display: block;
+}
+.bad {
+  background: #f3f3f3;
+  padding: 1em;
+  margin: 0 1em 2em;
+}
+.bad {
+  transition: 0.2s;
+  border-radius: 4px;
+}
+.bad:hover {
+  box-shadow: 0 0.3em 20px rgba(0,0,0,.3);
+  transform: translateY(-0.3em);
+}
+
+.bad-content {
+  margin: 0 -1em -1em;
+}
+.bad-content > * {
+  margin: 0.3em 1em 1em;
+}
+.bad-content img {
+}
+
+.bad-content > * {
+  flex: 1 1 210px;
 }
