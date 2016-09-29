@@ -328,25 +328,17 @@ ul.teaser {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
-  margin: 0 -1em;
+  margin: 0 -2em;
 }
 .teaser li {
   flex: 1 1 30%;
-  margin: 0 1em 3em;
+  margin: 0;
   list-style: none;
 }
 a.teaser-img {
   display: block;
   border: none;
   margin-bottom: 1em;
-}
-a.teaser-img img {
-  transition: 0.2s;
-  border-radius: 4px;
-}
-a.teaser-img:hover img {
-  box-shadow: 0 0.3em 20px rgba(0,0,0,.3);
-  transform: translateY(-0.3em);
 }
 
 
@@ -422,15 +414,21 @@ a.teaser-img:hover img {
   display: block;
 }
 .bad {
-  background: #f3f3f3;
+  background: #fff;
   padding: 1em;
   margin: 0 1em 2em;
 }
-.bad {
+a.card {
+  display: block;
+  border: none;
+}
+.card {
+  padding: 1em;
+  margin: 0 1em 1em;
   transition: 0.2s;
   border-radius: 4px;
 }
-.bad:hover {
+.card:hover {
   box-shadow: 0 0.3em 20px rgba(0,0,0,.3);
   transform: translateY(-0.3em);
 }

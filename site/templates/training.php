@@ -20,9 +20,9 @@
       <div class="baeder flex">
       <?php foreach ($page->beader()->toStructure() as $bad): ?>
         <?php if ($bad->link() != ''): ?>
-          <a class="bad" href="<?= $bad->link() ?>">
+          <a class="bad card" href="<?= $bad->link() ?>">
         <?php else: ?>
-          <div class="bad">
+          <div class="bad card">
         <?php endif ?>
           <h4>
             <?php echo($bad->title()) ?>
