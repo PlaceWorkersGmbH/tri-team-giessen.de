@@ -19,14 +19,6 @@ Techniktraining
 10:15-11:45 Uhr
 (link: http://www.stadtwerke-giessen.de/baeder/schwimmen/baeder/westbad.html text: Westbad Gießen)
 
-### Radfahren
-
-Nach aktueller Absprache.
-
-### Laufen
-
-Nach aktueller Absprache
-
 ----
 
 Beader: 
@@ -79,3 +71,15 @@ Beader:
     
     Telefon: 06 41 - 82 745
   image: freibad_wettenberg_01.jpg
+
+----
+
+Text2: 
+
+### Radfahren
+
+Nach aktueller Absprache.
+
+### Laufen
+
+Nach aktueller Absprache

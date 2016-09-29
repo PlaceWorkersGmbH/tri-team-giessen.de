@@ -7,7 +7,14 @@
 
     <div class="text">
       <h1><?php echo $page->title()->html() ?></h1>
-      <?php echo $page->text()->kirbytext() ?>
+      <div class="flex">
+        <div>
+          <?php echo $page->text()->kirbytext() ?>
+        </div>
+        <div>
+          <?php echo $page->text2()->kirbytext() ?>
+        </div>
+      </div>
     </div>
     <?php if ($page->hasBeader()): ?>
       <div class="baeder flex">
