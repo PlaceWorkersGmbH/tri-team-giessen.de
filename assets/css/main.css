@@ -390,3 +390,32 @@ a.teaser-img:hover img {
 .subtitle {
   font-style: italic;
 }
+
+/* Flex
+-------------------------------------------------- */
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0 -1em;
+}
+.flex > * {
+  flex: 1 1 30%;
+  margin: 0 1em;
+  list-style: none;
+}
+
+
+/* Member
+-------------------------------------------------- */
+
+.member img {
+  float: right;
+}
+
+/* Bad
+-------------------------------------------------- */
+
+.bad img {
+  float: right;
+}
