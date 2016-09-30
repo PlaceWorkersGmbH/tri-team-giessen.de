@@ -151,9 +151,8 @@ body {
 /* Navigation
 -------------------------------------------------- */
 .menu {
-  margin: 0.8em;
+  margin: 0;
 }
-
 .menu a {
   display: block;
   color: #222;
@@ -187,6 +186,7 @@ body {
   }
   .menu {
     float: right;
+    margin: .8em;
     margin-right: -1em;
   }
   .menu > li {
@@ -269,7 +269,6 @@ h1 a, h2 a, h3 a, h4 a {
 .text ol {
   margin-left: 1em;
 }
-
 .text .image {
   margin-bottom: 2em;
 }
@@ -291,18 +290,32 @@ h1 a, h2 a, h3 a, h4 a {
   padding-right: .25em;
 }
 
+/* Submenu
+-------------------------------------------------- */
+.submenu a{
+  border-bottom: 0;
+}
+.submenu li {
+  list-style: none;
+  margin-bottom: .2em;
+}
+.submenu li:hover {
+  color:#6c888f;
+}
+.submenu li:before {
+  color: #6c888f;
+  margin-right: .5em;
+  content: '\2192';
+}
 
 /* Mood Image
 -------------------------------------------------- */
-
 .mood-image {
   margin-bottom: 2em;
 }
 
-
 /* Sponsors
 -------------------------------------------------- */
-
 .sponsors {
   display: flex;
   flex-wrap: wrap;
@@ -404,6 +417,7 @@ a.teaser-img:hover img {
   flex: 1 1 280px;
   list-style: none;
 }
+
 
 /* Member
 -------------------------------------------------- */
