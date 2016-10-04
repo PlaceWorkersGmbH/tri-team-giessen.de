@@ -1,11 +1,12 @@
 Title: Regionalliga-Team beendet Saison auf dem Treppchen
+
 ----
 
 Date: 2015-09-13
 
 ----
 
-Text: _Georg Dewald und Philipp Menz haben das Gießener Regionalliga-Team im letzten Rennen zu einem starken Saisonabschluss geführt: In Remagen verteidigte die Mannschaft den dritten Rang._
+Text: 
 
 2,8 Kilometer Schwimmen rheinabwärts bei etwa 19 Grad Wassertemperatur, 44 profilierte Kilometer mit insgesamt rund 560 Höhenmetern auf dem Rad und zum Abschluss rund 10,6 sehr "eckige" Kilometer Laufen: Das waren die Rahmendaten für das Finale der Triathlon-Regionalliga Mitte 2015, in der das Triathlon-Team Gießen nach dem dritten Rang im Vorjahr auch in dieser Saison mit den Konkurrenten aus Viernheim und Fuldatal um die Plätze zwei bis vier stritt. Georg Dewald, Philipp Menz, Frank Kalbfleisch und Fabian Fiedler sollten das Podest sichern, kurzfristig sprang außerdem auch noch Steffen Mücke als Ersatzmann ein - was sich später als entscheidend für einen erfolgreichen Abschluss erweisen sollte.
  
@@ -18,3 +19,7 @@ Dort drückte der Laufspezialist und "Triathlon-Gaststarter" Fiedler dann auch a
 In der Gesamtwertung der Regionalliga Mitte belegt das Triathlon-Team Gießen, das zur neuen Saison aufgrund famliärer und beruflicher Veränderungen vieler Mitglieder nun vor einem personellen Umbruch steht, trotz des Platten-Pechs im letzten Rennen so zum zweiten Mal in Folge den starken dritten Rang. Nur die Teams aus Kleinostheim und aus Fuldatal landeten über die Saison hinweg letztlich vor der Gießener Mannschaft.
 
 (link: http://trisys-portal.de/ergebnisse/ergebnisse/138-rhein-ahr-triathlon_2015?limitstart=0 text:Vollständige Ergebnisse popup:yes)
+
+----
+
+Subtitle: Georg Dewald und Philipp Menz haben das Gießener Regionalliga-Team im letzten Rennen zu einem starken Saisonabschluss geführt: In Remagen verteidigte die Mannschaft den dritten Rang.

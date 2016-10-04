@@ -1,16 +1,16 @@
-Title: Kirby Starterkit
+Title: Triathlon-Team Giessen e.V.
 
 ----
 
-Author: Bastian Allgeier GmbH
+Author: 
 
 ----
 
-Description: This is Kirby's Starterkit.
+Description: 
 
 ----
 
-Keywords: Kirby, CMS, file-based
+Keywords: Kirby,CMS,file-based
 
 ----
 

@@ -1,11 +1,12 @@
 Title: Georg Dewald Hessenmeister über Mitteldistanz
+
 ----
 
 Date: 2015-08-18
 
 ----
 
-Text: _Der Gießener Regionalliga-Starter Georg Dewald beeindruckte bei den Hessenmeisterschaften: Beim "Weilburgman" dominierte der 22-jährige Allrounder und gewann im Dauerregen erstmals Gold._
+Text: 
 
 Schon vor dem Start zeigte sich Dewald optimistisch - dabei war die Rennvorbereitung für den erst 22 Jahre jungen Gießener Studenten wegen gesundheitlicher Probleme durchwachsen verlaufen. Sorgte ein plötzlicher Einbruch der in den Tagen zuvor noch hochsommerlichen Temperaturen auf rund 15 bis 20 Grad bei Dauerregen für einige Rennabsagen und Sorgenfalten, freute sich Dewald über diesen Wetterumschwung. "Damit komme ich besser zurecht als die meisten anderen. Für meinen Geschmack könnte es eigentlich sogar noch etwas kühler sein", sagte Dewald, der bei Meisterschaften für den TSV Krofdorf-Gleiberg startet und über das Zweitstartrecht in der Regionalliga für das Triathlon-Team Gießen aktiv ist, kurz vor dem Start.
  
@@ -21,3 +22,7 @@ Splitzeiten:
 22 km Laufen: 1:26:20
 
 (link: http://www.weilburgman.de/ergebnisse.php text:Vollständige Ergebnisse popup:yes)
+
+----
+
+Subtitle: Der Gießener Regionalliga-Starter Georg Dewald beeindruckte bei den Hessenmeisterschaften: Beim "Weilburgman" dominierte der 22-jährige Allrounder und gewann im Dauerregen erstmals Gold.

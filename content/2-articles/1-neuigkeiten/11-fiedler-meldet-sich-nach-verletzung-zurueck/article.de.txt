@@ -6,10 +6,14 @@ Date: 2015-08-07
 
 ----
 
-Text: _Mit einem 10-Kilometer-Lauf in 32:08 Minuten hat sich Tri-Team-Athlet Fabian Fiedler in Kaiserslautern nach einem schwierigen Frühjahr im Wettkampfgeschehen zurückgemeldet._
+Text: 
 
 Nach dem Frankfurt-Marathon im vergangenen Oktober (2:31:20 Stunden) lief es beim Lauf-Quereinsteiger im Triathlon-Team nicht mehr rund: Erst musste der Pohlheimer 10 Trainingswochen lang wegen eines "ITBS" ins Wasser ausweichen, nach wenigen Laufwochen folgte wegen einer fehlerhaften Einlage ein Ermüdungsbruch und eine erneute knapp zweimonatige Laufpause. Erst ab Mitte Mai konnte sich Fiedler somit wieder langsam an die Laufbelastung herantasten. Der offiziell vermessene 10-Kilometer-Lauf in Kaiserslautern-Einsiedlerhof Ende Juli, beworben als "schnellster Zehner der Pfalz", bei dem Fiedler als Titelverteidiger an den Start ging, sollte deshalb ein erster seriöser Formtest für den Wahl-Hessen werden.
  
 "Da ich auch während der Verletzungen viel Schwimmen und Aquajoggen war, war die Fitness nicht weg. Nur die Tempoausdauer hat beim Laufen gefehlt. Deshalb hat mein Trainer Daniel Kilb mich in den letzten Wochen schon wieder richtig viel und richtig schnell durch die Gegend gescheucht", meinte Fiedler. "Aber mit jeder Einheit ging es wieder etwas besser. Deswegen bin ich in Kaiserslautern auch optimistisch an den Start gegangen und hoffte insgeheim schon auf eine 32er-Zeit."
  
 Und die wurde es auch - obwohl Fiedler am Morgen versehentlich seine Uhr zuhause vergessen hatte. "So bin ich rein nach Gefühl gelaufen. Nach einem Kilometer ist mir ein Kenianer knapp 100 Meter weit weggezogen, um sich die bei Kilometer 3 ausgelobte Sprintprämie zu sichern. Der Abstand zu ihm blieb dann stets konstant, der nach hinten wuchs stetig an, sodass ich ohne die ganz, ganz großen Schmerzen den zweiten Rang verteidigen konnte." Nach 32:08 rannte Fiedler so am Ende auf dem Silberrang zu einer offiziellen 10-Kilometer-Bestzeit, ohne dabei eine Zwischenzeit gekannt zu haben. "Das ist natürlich ein super Zwischenergebnis. Jetzt gilt der Fokus aber auch gleich wieder den letzten beiden Regionalligarennen für das Tri-Team und den Hessischen Meisterschaften über 10 Kilometer Ende September."
+
+----
+
+Subtitle: Mit einem 10-Kilometer-Lauf in 32:08 Minuten hat sich Tri-Team-Athlet Fabian Fiedler in Kaiserslautern nach einem schwierigen Frühjahr im Wettkampfgeschehen zurückgemeldet.

@@ -6,7 +6,7 @@ Date: 2016-07-25
 
 ----
 
-Text: _2. Herrenmannschaft weiter unter den ersten drei der Liga._
+Text: 
 
 Mit einer soliden Leistung konnte die 2. Herrenmannschaft den zweiten Ligawettkampf der Saison beim Burgwaldtria am 23.7.16 abliefern.
 
@@ -21,3 +21,7 @@ Für das Team waren Frank Lotz (10.), Ralf Valentin (12.), Damian Wachsmann (22.
 Im der Offenen Klasse starteten außerdem Peter Meisel und Gerhard Kühnel für das TriTeam.
 
 Weitere Infos unter (link: http://www.tsv-bottendorf.net/Triathlon/erg09.html text:www.tsv-bottendorf.net popup:yes)
+
+----
+
+Subtitle: 2. Herrenmannschaft weiter unter den ersten drei der Liga.
