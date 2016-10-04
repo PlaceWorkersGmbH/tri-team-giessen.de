@@ -261,6 +261,7 @@ h1 a, h2 a, h3 a, h4 a {
   border-color: #222;
 }
 
+
 /* Text blocks */
 .text {
   margin-bottom: 2em;
@@ -429,27 +430,21 @@ a.teaser-img:hover img {
 /* Bad
 -------------------------------------------------- */
 
-.baeder {
-  margin: 0 -1em;
+.cards {
+  margin: 0 -2em;
 }
-.baeder a {
-  border: none;
-  display: block;
-}
-.bad {
-  background: #fff;
+.cards > * {
   padding: 1em;
-  margin: 0 1em 2em;
+  margin: 0 1em 1em;
+  border-radius: 4px;
 }
 a.card {
   display: block;
   border: none;
 }
 .card {
-  padding: 1em;
-  margin: 0 1em 1em;
+  background: #fff;
   transition: 0.2s;
-  border-radius: 4px;
 }
 .card:hover {
   box-shadow: 0 0.3em 20px rgba(0,0,0,.3);
@@ -467,4 +462,19 @@ a.card {
 
 .bad-content > * {
   flex: 1 1 210px;
+}
+
+
+/* Two-Col-Layout
+-------------------------------------------------- */
+
+.two-col-layout {
+  display: flex;
+}
+.two-col-layout .submenu {
+  flex: 1 0 1;
+  margin-right: 5em;
+}
+.two-col-layout .text {
+  flex: 5;
 }

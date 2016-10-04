@@ -1,6 +1,6 @@
 <?php snippet('header') ?>
 
-  <main class="main" role="main">
+  <main class="main two-col-layout" role="main">
 
     <div class="mood-image">
       <?= $page->images('mood') ?>

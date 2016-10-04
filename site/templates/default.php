@@ -1,7 +1,7 @@
 <?php snippet('header') ?>
   <hr style="background: #6c888f; height: 2px; margin-bottom: 2em">
 
-  <main class="main" role="main">
+  <main class="main two-col-layout" role="main">
 
     <?php snippet('submenu') ?>
 
