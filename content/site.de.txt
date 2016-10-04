@@ -14,4 +14,4 @@ Keywords: Kirby,CMS,file-based
 
 ----
 
-Copyright: © 2016-(date: Year) Triathlon-Team Giessen e.V.
+Copyright: © (date: Year) Triathlon-Team Giessen e.V.
