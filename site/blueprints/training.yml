@@ -7,10 +7,10 @@ fields:
     type:  text
   text:
     label: Text 1
-    type:  textarea
+    type:  markdown
   text2:
     label: Text 2
-    type:  textarea
+    type:  markdown
   beader:
     label: Hallen- und Freibäder in der Region
     type:  structure
@@ -24,7 +24,7 @@ fields:
         type: url
       text:
         label: Text
-        type:  textarea
+        type:  markdown
       image:
         label: Bild
         type: image
