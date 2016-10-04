@@ -37,6 +37,10 @@
               <?php if ($bad->text()): ?>
                 <?php echo($bad->text()->kirbytext()) ?>
               <?php endif ?>
+              <?php if ($bad->link() != ''): ?>
+                <?php $domain = parse_url($bad->link()->uri(), PHP_URL_HOST); ?>
+                <?= $domain ?>
+              <?php endif ?>
             </div>
           </div>
         <?php if ($bad->link() != ''): ?>
