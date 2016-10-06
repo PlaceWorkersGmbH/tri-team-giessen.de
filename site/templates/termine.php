@@ -18,35 +18,13 @@
       <?php if ($page->events()->toStructure()->count() > 0): ?>
         <div class="cards">
           <?php foreach ($page->events()->toStructure() as $event): ?>
-            <?php if ($event->link() != ''): ?>
-              <a class="card" href="<?= $event->link() ?>">
-            <?php else: ?>
-              <div class="">
-            <?php endif ?>
-              <h4>
-                <?php echo($event->title()) ?>
-              </h4>
-              <div class="flex">
-                <?php if ($event->image() != ''): ?>
-                  <div class="image">
-                    <?= thumb($page->images()->find($event->image()), array('height' => 400, 'width' => 600, 'crop' => true)) ?>
-                  </div>
-                <?php endif ?>
-                <div>
-                  <?php if ($event->text()): ?>
-                    <?php echo($event->text()->kirbytext()) ?>
-                  <?php endif ?>
-                  <?php if ($event->link() != ''): ?>
-                    Link: <?php $domain = parse_url($event->link()->uri(), PHP_URL_HOST); ?>
-                    <?= $domain ?>
-                  <?php endif ?>
-                </div>
-              </div>
-            <?php if ($event->link() != ''): ?>
-              </a>
-            <?php else: ?>
-              </div>
-            <?php endif ?>
+            <?php snippet("card", array(
+              'item' => $event,
+              'image' => $page->images()->find($event->image()),
+              'text' => $event->text()->kirbytext(),
+              'link' => $event->link(),
+              'linktext' => "Link: ".parse_url($event->link(), PHP_URL_HOST)
+            )); ?>
           <?php endforeach ?>
         </div>
       <?php else : ?>

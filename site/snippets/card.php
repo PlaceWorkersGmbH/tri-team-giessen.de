@@ -4,7 +4,9 @@
   <?php else: ?>
     <div class="image">
   <?php endif ?>
-  <?= thumb($image, array('width' => 700, 'height' => 420, 'crop' => true)) ?>
+  <?php if ($image): ?>
+    <?= thumb($image, array('width' => 700, 'height' => 420, 'crop' => true)) ?>
+  <?php endif ?>
   <?php if ($link && $link != ''): ?>
     </a>
   <?php else: ?>
