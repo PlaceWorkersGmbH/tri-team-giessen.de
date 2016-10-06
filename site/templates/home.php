@@ -7,6 +7,9 @@
     </div>
 
     <?php snippet('sponsors') ?>
+
+    <h2>Neuigkeiten aus dem Verein</h2>
+
     <?php snippet('articles', array(
       'articles' => $pages->find('aktuelles/neuigkeiten')->children()->visible()->limit(3)
     )) ?>

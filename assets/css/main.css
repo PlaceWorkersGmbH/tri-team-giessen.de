@@ -99,7 +99,10 @@ a {
   transition: color .3s, background .3s, border .3s;
 }
 a:hover {
-  color: #6c888f;
+  color: #DB5461;
+}
+a:hover p {
+  color: initial;
 }
 
 
@@ -158,11 +161,11 @@ body {
   color: #222;
 }
 .menu a:hover {
-  color: #6c888f;
+  color: #DB5461;
   text-decoration: none;
 }
 .menu .active {
-  color: #6c888f;
+  color: #DB5461;
 }
 .menu li {
   list-style: none;
@@ -298,15 +301,22 @@ h1 a, h2 a, h3 a, h4 a {
 }
 .submenu li {
   list-style: none;
-  margin-bottom: .2em;
+  margin: .1em 0;
 }
-.submenu li:hover {
-  color:#6c888f;
+.submenu li a {
+  padding: .1em 0;
+  display: block;
 }
-.submenu li:before {
+.submenu li a:before {
   color: #6c888f;
   margin-right: .5em;
   content: '\2192';
+}
+.submenu li:hover a,
+.submenu li:hover a:before,
+.submenu .active a,
+.submenu .active a:before {
+  color: #DB5461;
 }
 
 /* Mood Image

@@ -1,5 +1,3 @@
-<h2>Neuigkeiten aus dem Verein</h2>
-
 <ul class="teaser cf">
   <?php foreach($articles as $project): ?>
   <li>
