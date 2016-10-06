@@ -27,6 +27,7 @@ Members:
   city: ""
   mobile: ""
   email: top3athlon(at)aol.com
+  image: ""
 - 
   title: 2. stellvertretender Vorsitzender
   firstname: Phillip

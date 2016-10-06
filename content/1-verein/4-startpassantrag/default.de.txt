@@ -4,9 +4,9 @@ Title: Startpassantrag
 
 Text: 
 
-Hier können Sie sich den aktuellen Startpassantrag der Deutschen Triathlon Union herunterladen:
+Hier können Sie sich den aktuellen Startpassantrag der Deutschen Triathlon Union beantragen:
 
-(link fehlt noch)
+(link: http://www.dtu-info.de/home/amateursport/startpass/startpassbeantragung.html text:Startpassantrag popup: yes)
 
 Senden Sie bitte den ausgefülten und unterschriebenen Antrag an:
 
