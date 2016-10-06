@@ -7,7 +7,7 @@
 
 
     <div class="text">
-      <h1><?php echo $page->title()->html() ?></h1>
+      <h2><?php echo $page->title()->html() ?></h2>
       <div class="flex">
         <div>
           <?php echo $page->text()->kirbytext() ?>
@@ -17,39 +17,18 @@
         </div>
       </div>
       <?php if ($page->hasBeader()): ?>
-        <div class="cards flex">
+        <h2>Hallen- und Freibäder in der Region</h2>
+        <ul class="cards flex">
         <?php foreach ($page->beader()->toStructure() as $bad): ?>
-          <?php if ($bad->link() != ''): ?>
-            <a class="card" href="<?= $bad->link() ?>">
-          <?php else: ?>
-            <div class="">
-          <?php endif ?>
-            <h4>
-              <?php echo($bad->title()) ?>
-            </h4>
-            <div class="bad-content flex">
-              <div class="image">
-                <?php if ($bad->image() != ''): ?>
-                  <?= thumb($page->images()->find($bad->image()), array('height' => 400, 'width' => 600, 'crop' => true)) ?>
-                <?php endif ?>
-              </div>
-              <div>
-                <?php if ($bad->text()): ?>
-                  <?php echo($bad->text()->kirbytext()) ?>
-                <?php endif ?>
-                <?php if ($bad->link() != ''): ?>
-                  <?php $domain = parse_url($bad->link()->uri(), PHP_URL_HOST); ?>
-                  <?= $domain ?>
-                <?php endif ?>
-              </div>
-            </div>
-          <?php if ($bad->link() != ''): ?>
-            </a>
-          <?php else: ?>
-            </div>
-          <?php endif ?>
+          <?php snippet("card", array(
+            'item' => $bad,
+            'image' => $page->images()->find($bad->image()),
+            'text' => $bad->text()->kirbytext(),
+            'link' => $bad->link(),
+            'linktext' => "Link: ".parse_url($bad->link(), PHP_URL_HOST)
+          )); ?>
         <?php endforeach ?>
-        </div>
+        </ul>
       <?php endif ?>
     </div>
 
