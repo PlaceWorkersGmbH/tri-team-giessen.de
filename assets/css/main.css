@@ -345,7 +345,7 @@ ul.teaser {
   margin: 0 -1em;
 }
 .teaser li {
-  flex: 1 1 30%;
+  flex: 1 1 16em;
   margin: 0 1em 3em;
   list-style: none;
 }
@@ -470,12 +470,13 @@ a.card {
 
 .two-col-layout {
   display: flex;
+  flex-wrap: wrap;
 }
 .two-col-layout .submenu {
-  flex: 1 0 3;
+  flex: 0 0 10em;
   min-width: 10em;
   margin-right: 2em;
 }
 .two-col-layout .text {
-  flex: 5;
+  flex: 1 1 30em;
 }
