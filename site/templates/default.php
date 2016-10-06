@@ -6,7 +6,7 @@
     <?php snippet('submenu') ?>
 
     <div class="text">
-      <h1><?php echo $page->title()->html() ?></h1>
+      <h2><?php echo $page->title()->html() ?></h2>
       <?php echo $page->text()->kirbytext() ?>
       <?php if ($page->hasImages()): ?>
         <?php foreach ($page->images() as $image): ?>

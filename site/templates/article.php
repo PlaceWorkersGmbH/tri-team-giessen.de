@@ -4,7 +4,7 @@
   <main class="main" role="main">
     <div>
       <?php echo $page->date('d.m.Y') ?>
-      <h1><?php echo $page->title()->html() ?></h1>
+      <h2><?php echo $page->title()->html() ?></h2>
     </div>
     <div class="article-layout">
       <div class="text">

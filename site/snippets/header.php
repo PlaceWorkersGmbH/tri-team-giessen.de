@@ -15,8 +15,10 @@
 <body>
 
   <header class="header cf" role="banner">
-    <a class="logo" href="<?php echo url() ?>">
-      <img src="<?php echo url('assets/images/triathlon-team-giessen.png') ?>" alt="<?php echo $site->title()->html() ?>" />
-    </a>
+    <h1 class="logo">
+      <a href="<?php echo url() ?>" alt="Triathlon Team Giessen e.V.">
+        <img src="<?php echo url('assets/images/triathlon-team-giessen.png') ?>" alt="<?php echo $site->title()->html() ?>" />
+      </a>
+    </h1>
     <?php snippet('menu') ?>
   </header>

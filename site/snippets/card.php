@@ -24,6 +24,6 @@
   </h3>
   <?php echo $text ?>
   <?php if ($link && $link != ''): ?>
-    <?= "Link: " ?><a href="<?= $link ?>"><?= $linktext ?></a>
+    <a href="<?= $link ?>"><?= $linktext ?></a>
   <?php endif ?>
 </li>

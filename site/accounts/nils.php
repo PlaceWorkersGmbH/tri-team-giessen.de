@@ -9,6 +9,6 @@ password: >
 language: en
 role: admin
 history:
-  - aktuelles/neuigkeiten
   - aktuelles/termine
+  - aktuelles/neuigkeiten
   - training
