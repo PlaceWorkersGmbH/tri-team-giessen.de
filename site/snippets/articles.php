@@ -1,5 +1,5 @@
 <ul class="teaser cf">
-  <?php $paginated = $articles->paginate(9); ?>
+  <?php $paginated = $articles->paginate(12); ?>
   <?php foreach($paginated as $project): ?>
   <li>
       <a class="teaser-img" href="<?php echo $project->url() ?>">

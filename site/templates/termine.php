@@ -16,10 +16,7 @@
         <?php endforeach ?>
       <?php endif ?>
       <?php if ($page->events()->toStructure()->count() > 0): ?>
-
-
-
-        <div class="cards flex">
+        <div class="cards">
           <?php foreach ($page->events()->toStructure() as $event): ?>
             <?php if ($event->link() != ''): ?>
               <a class="card" href="<?= $event->link() ?>">
@@ -52,9 +49,6 @@
             <?php endif ?>
           <?php endforeach ?>
         </div>
-
-
-
       <?php else : ?>
         <p>Aktuell stehen keine Termine an.</p>
       <?php endif ?>
