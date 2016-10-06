@@ -213,7 +213,7 @@ h1 {
   margin: 0;
 }
 h2 {
-  font-size: 2em;
+  font-size: 2.2em;
   line-height: 1.25em;
   font-weight: 300;
   margin-bottom: .5em;
@@ -222,7 +222,7 @@ h2 {
 h3 {
   font-size: 1.4em;
   line-height: 1.5em;
-  font-weight: 400;
+  font-weight: 600;
   margin-bottom: .5em;
 }
 h4 {
