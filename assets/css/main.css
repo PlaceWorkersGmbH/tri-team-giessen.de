@@ -497,6 +497,18 @@ a.card {
   flex: 1 1 16em;
 }
 
+/* images
+-------------------------------------------------- */
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.gallery a {
+}
+
 /* pagination
 -------------------------------------------------- */
 .pagination {
