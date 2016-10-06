@@ -472,8 +472,9 @@ a.card {
   display: flex;
 }
 .two-col-layout .submenu {
-  flex: 1 0 1;
-  margin-right: 5em;
+  flex: 1 0 3;
+  min-width: 10em;
+  margin-right: 2em;
 }
 .two-col-layout .text {
   flex: 5;
