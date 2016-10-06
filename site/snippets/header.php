@@ -9,6 +9,9 @@
   <meta name="description" content="<?php echo $site->description()->html() ?>">
   <meta name="keywords" content="<?php echo $site->keywords()->html() ?>">
 
+  <script src="/assets/js/jquery.min.js"></script>
+  <?php echo css('assets/css/lightbox.css') ?>
+
   <?php echo css('assets/css/main.css') ?>
 
 </head>
