@@ -14,6 +14,9 @@
 
   <?php echo css('assets/css/main.css') ?>
 
+  <link rel="shortcut icon" href="<?= url('assets/images/favicon.png') ?>" type="image/png" />
+  <link rel="icon" href="<?= url('assets/images/favicon.png') ?>" type="image/png" />
+
 </head>
 <body>
 
