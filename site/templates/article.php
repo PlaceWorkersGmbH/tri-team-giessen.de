@@ -14,13 +14,11 @@
         <?php echo $page->text()->kirbytext() ?>
       </div>
       <?php if ($page->hasImages()): ?>
-        <div class="images cards flex">
+        <div class="images cards">
           <?php foreach ($page->images() as $image): ?>
-            <div class="image">
-              <a href="<?= $image->url() ?>">
-                <img class="card" src="<?= $image->url() ?>">
-              </a>
-            </div>
+            <a class="image" href="<?= $image->url() ?>">
+              <img class="" src="<?= $image->url() ?>">
+            </a>
           <?php endforeach ?>
         </div>
       </div>
