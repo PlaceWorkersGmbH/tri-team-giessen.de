@@ -8,7 +8,7 @@
 
     <?php snippet('sponsors') ?>
     <?php snippet('articles', array(
-      'articles' => $pages->find('articles/neuigkeiten')->children()->visible()->limit(3)
+      'articles' => $pages->find('aktuelles/neuigkeiten')->children()->visible()->limit(3)
     )) ?>
 
   </main>

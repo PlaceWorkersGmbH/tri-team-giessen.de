@@ -9,7 +9,7 @@
       <h1><?php echo $page->title()->html() ?></h1>
       <?php echo $page->text()->kirbytext() ?>
       <?php snippet('articles', array(
-        'articles' => $pages->find('articles/neuigkeiten')->children()->visible()
+        'articles' => $pages->find('aktuelles/neuigkeiten')->children()->visible()
       )) ?>
     </div>
 
