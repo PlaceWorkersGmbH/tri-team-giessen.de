@@ -273,9 +273,6 @@ h1 a, h2 a, h3 a, h4 a {
 .text ol {
   margin-left: 1em;
 }
-.text .image {
-  margin-bottom: 2em;
-}
 
 /* Project meta
 -------------------------------------------------- */
@@ -366,7 +363,7 @@ a.teaser-img {
 }
 a.teaser-img img {
   transition: 0.2s;
-  border-radius: 5px;
+  border-radius: 4px;
 }
 a.teaser-img:hover img {
   box-shadow: 0 0.3em 20px rgba(0,0,0,.3);
@@ -489,4 +486,51 @@ a.card {
 }
 .two-col-layout .text {
   flex: 1 1 30em;
+}
+
+/* article-layout
+-------------------------------------------------- */
+.article-layout {
+  display: flex;
+  flex-wrap: wrap;
+}
+.article-layout .text {
+  flex: 1 1 32em;
+  min-width: 10em;
+  margin-right: 2em;
+}
+.article-layout .images {
+  flex: 1 1 16em;
+}
+
+/* pagination
+-------------------------------------------------- */
+.pagination {
+  display: flex;
+  margin: 0 -1em;
+}
+.pagination > * {
+  flex: 0 1 50%;
+  padding: 1em;
+  margin: 0 1em;
+}
+.pagination a {
+  display: block;
+  background: #6c888f;
+  border: none;
+  color: #fff;
+  transition: transform 0.3s;
+  border-radius: 4px;
+}
+.pagination a:hover {
+  color: #fff;
+}
+.pagination a.prev:hover {
+  transform: translateX(0.4em);
+}
+.pagination a.prev {
+  text-align: right;
+}
+.pagination a.next:hover {
+  transform: translateX(-0.3em);
 }

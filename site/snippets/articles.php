@@ -1,5 +1,6 @@
 <ul class="teaser cf">
-  <?php foreach($articles as $project): ?>
+  <?php $paginated = $articles->paginate(9); ?>
+  <?php foreach($paginated as $project): ?>
   <li>
       <a class="teaser-img" href="<?php echo $project->url() ?>">
       <?php if($image = $project->images()->sortBy('sort', 'asc')->first()): ?>
@@ -15,3 +16,22 @@
   </li>
   <?php endforeach ?>
 </ul>
+
+
+<?php if($paginated->pagination()->hasPages()): ?>
+<nav class="pagination">
+
+  <?php if($paginated->pagination()->hasNextPage()): ?>
+  <a class="next" href="<?php echo $paginated->pagination()->nextPageURL() ?>">&lsaquo; ältere Artikel</a>
+  <?php else : ?>
+  <div class="next"></div>
+  <?php endif ?>
+
+  <?php if($paginated->pagination()->hasPrevPage()): ?>
+  <a class="prev" href="<?php echo $paginated->pagination()->prevPageURL() ?>">neuere Artikel &rsaquo;</a>
+  <?php else : ?>
+  <div class="prev"></div>
+  <?php endif ?>
+
+</nav>
+<?php endif ?>

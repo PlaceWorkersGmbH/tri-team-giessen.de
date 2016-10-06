@@ -8,7 +8,7 @@
 
     <?php snippet('sponsors') ?>
 
-    <h2>Neuigkeiten aus dem Verein</h2>
+    <a href="<?php echo $pages->find('aktuelles/neuigkeiten')->url() ?>"><h2>Neuigkeiten aus dem Verein</h2></a>
 
     <?php snippet('articles', array(
       'articles' => $pages->find('aktuelles/neuigkeiten')->children()->visible()->limit(3)
