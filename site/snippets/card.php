@@ -1,6 +1,6 @@
 <li class="card">
   <?php if ($link && $link != ''): ?>
-    <a class="image" href="<?php echo $link ?>">
+    <a class="image magnet" href="<?php echo $link ?>">
   <?php else: ?>
     <div class="image">
   <?php endif ?>

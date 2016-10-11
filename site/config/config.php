@@ -76,3 +76,8 @@ c::set('language.detect', true);
 
 
 c::set('markdown.extra', true);
+
+
+c::set('uniform.language', 'de');
+
+

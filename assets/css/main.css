@@ -134,6 +134,7 @@ body {
 }
 
 
+
 /* Header
 -------------------------------------------------- */
 .header {
@@ -234,7 +235,6 @@ h4 {
 }
 h1 a, h2 a, h3 a, h4 a {
   color: inherit;
-  border: 0 !important;
 }
 
 
@@ -243,7 +243,6 @@ h1 a, h2 a, h3 a, h4 a {
 -------------------------------------------------- */
 .main {
   padding-bottom: 1.5em;
-  border-bottom: 2px solid #6c888f;
 }
 .main hr {
   margin: 3em 0;
@@ -363,6 +362,7 @@ h1 a, h2 a, h3 a, h4 a {
 /* Footer
 -------------------------------------------------- */
 .footer {
+  border-top: 2px solid #6c888f;
   padding: 1em 0 6em;
   font-size: .8em;
 }
@@ -432,38 +432,20 @@ a.image {
   border: none;
 }
 a.image img {
-  transition: 0.2s;
   border-radius: 4px;
 }
-a.image:hover img {
-  box-shadow: 0 0.3em 20px rgba(0,0,0,.3);
-  transform: translateY(-0.3em);
-}
 
-/* Bad
+/* magnet
 -------------------------------------------------- */
 
-/*.cards {
-  margin: 0 -2em;
-}
-.cards > * {
-  padding: 1em;
-  margin: 0 1em 1em;
-  border-radius: 4px;
-}
-a.card {
-  display: block;
-  border: none;
-}
-.card {
-  background: #fff;
+.magnet {
   transition: 0.2s;
+  cursor: pointer;
 }
-.card:hover {
+.magnet:hover {
   box-shadow: 0 0.3em 20px rgba(0,0,0,.3);
   transform: translateY(-0.3em);
 }
-*/
 
 
 /* Two-Col-Layout
@@ -472,6 +454,11 @@ a.card {
 .two-col-layout {
   display: flex;
   flex-wrap: wrap;
+  margin: 0 -1em;
+}
+.two-col-layout > * {
+  flex: 1;
+  margin: 0 1em;
 }
 .two-col-layout .submenu {
   flex: 0 0 10em;
@@ -522,14 +509,18 @@ a.card {
 }
 .pagination a {
   display: block;
-  background: #6c888f;
+/*  background: #6c888f;
   border: none;
   color: #fff;
-  transition: transform 0.3s;
+  */
+  border: 1px solid #6c888f;
+  transition: 0.3s;
   border-radius: 4px;
 }
 .pagination a:hover {
+  background: #eee;
   color: #fff;
+  background: #DB5461;
 }
 .pagination a.prev:hover {
   transform: translateX(0.4em);
@@ -539,4 +530,61 @@ a.card {
 }
 .pagination a.next:hover {
   transform: translateX(-0.3em);
+}
+
+/* form
+-------------------------------------------------- */
+.uniform__potty {
+  display: none;
+}
+form label,
+form input,
+form textarea {
+  display: block;
+  width: 100%;
+}
+label,
+button {
+  font-size: 1em;
+  font-weight: bold;
+}
+textarea {
+  min-height: 11em;
+}
+.success {
+  background: #44633F;
+  color: white;
+  padding: 0.5em;
+}
+.error {
+  background: #DB5461;
+  color: white;
+  padding: 0.5em;
+}
+input,
+textarea {
+  font-size: 0.9em;
+}
+input,
+button,
+textarea {
+  border: 1px solid #e0e0e0;
+  background: #f3f3f3;
+  padding: 0.5em;
+  margin: 0.5em 0;
+}
+.formbox {
+  margin-bottom: 1em;
+}
+button {
+  background: #6c888f;
+  background-image: linear-gradient(#6c888f, #5b7379);
+  border-color: #5b7379;
+  color: #fff;
+  float: right;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+form button {
+  float: right;
 }
