@@ -3,7 +3,7 @@
   <?php foreach($paginated as $project): ?>
     <?php
       $image = $project->images()->sortBy('sort', 'asc')->first();
-      if (!$image) {$page->image("img-placeholder.png"); }
+      if (!$image) {$image = $page->image("img-placeholder.png"); }
       snippet("card", array(
         'item' => $project,
         'image' => $image,
