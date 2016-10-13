@@ -550,6 +550,7 @@ button {
 }
 textarea {
   min-height: 11em;
+  resize: vertical;
 }
 .success {
   background: #44633F;
