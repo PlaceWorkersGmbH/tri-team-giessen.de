@@ -1,0 +1,14 @@
+title: Sponsors
+pages: false
+fields:
+  title:
+    label: Title
+    type:  text
+  text:
+    label: Text
+    type:  markdown
+files:
+  fields:
+    link:
+      label: Link
+      type: text

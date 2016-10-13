@@ -1,0 +1,30 @@
+title: Termine
+pages:
+  template: default
+files: true
+fields:
+  title:
+    label: Title
+    type:  text
+  text:
+    label: Text
+    type:  markdown
+  events:
+    label: Termine
+    type:  structure
+    style: table
+    fields:
+      title:
+        label: Titel
+        type:  text
+      text:
+        label: Text
+        type:  markdown
+        toolbar: false
+      link:
+        label: Link
+        type: url
+      image:
+        label: Bild
+        help: (muss vorher als Datei hochgeladen worden sein)
+        type: image

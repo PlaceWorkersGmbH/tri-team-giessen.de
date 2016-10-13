@@ -1,0 +1,85 @@
+Title: Training
+
+----
+
+Text: 
+
+### Schwimmen
+
+#### Montag
+18:15-19:45 Uhr
+(link: http://www.stadtwerke-giessen.de/baeder/schwimmen/baeder/westbad.html text: Westbad Gießen)
+ 
+#### Mittwoch
+18:15-19:45 Uhr
+Techniktraining
+(link: http://www.stadtwerke-giessen.de/baeder/schwimmen/baeder/westbad.html text: Westbad Gießen)
+
+#### Samstag
+10:15-11:45 Uhr
+(link: http://www.stadtwerke-giessen.de/baeder/schwimmen/baeder/westbad.html text: Westbad Gießen)
+
+----
+
+Beader: 
+
+- 
+  title: Westbad Gießen (SWG)
+  link: >
+    http://www.stadtwerke-giessen.de/baeder/schwimmen/baeder/westbad.html
+  text: |
+    Gleiberger Weg 31
+    35398 Gießen
+    
+    Telefon: 06 41 - 70 80
+  image: westbad_giessen.jpg
+- 
+  title: Badezentrum Ringallee (SWG)
+  link: >
+    http://www.stadtwerke-giessen.de/baeder/schwimmen/baeder/badezentrum-ringallee.html
+  text: |
+    Gutfleischstraße 24
+    35390 Gießen
+    
+    Telefon: 06 41 - 70 81 447
+  image: hallenbad_ringallee_01.jpg
+- 
+  title: Hallenbad Lollar
+  link: http://lollar.dlrg.de/hallenbad.html
+  text: |
+    Ostenstraße 3
+    35457 Lollar
+    
+    Telefon: 0 64 06 - 73 238
+  image: hallenbad_lollar.jpg
+- 
+  title: Hallenbad Pohlheim
+  link: >
+    http://www.stadtwerke-giessen.de/baeder/schwimmen/baeder/hallenbad-pohlheim.html
+  text: |
+    Schwimmbadstraße 25
+    35415 Pohlheim
+    
+    Telefon: 0 64 03 - 65 11
+  image: hallenbad_pohlheim_01.jpg
+- 
+  title: Freibad Wettenberg
+  link: ""
+  text: |
+    Rodheimer Str.
+    35435 Krofdorf/ Gleiberg
+    
+    Telefon: 06 41 - 82 745
+  image: freibad_wettenberg_01.jpg
+
+----
+
+Text2: 
+
+### Radfahren
+
+Nach aktueller Absprache.
+
+### Laufen
+
+Nach aktueller Absprache

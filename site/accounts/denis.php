@@ -6,3 +6,10 @@ password: >
 email: schikunow@placeworkers.com
 language: de
 role: admin
+history:
+  - >
+    articles/neuigkeiten/vincent-groesser-schafft-kadernorm-im-triathlon
+  - articles/neuigkeiten/frankfurt-city-triathlon
+  - articles/neuigkeiten/vincent-groesser-spurtet-in-bad-kissingen-zum-sieg
+  - articles/neuigkeiten/wettkampfbericht-koeln-mitteldistanz-02-09-2012
+  - articles/neuigkeiten/hessiche-triathlonmeisterschaften-sprintdistanz-in-fritzlar

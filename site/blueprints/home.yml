@@ -1,13 +1,9 @@
 title: Home
-pages: false
+pages: true
 fields:
   title:
     label: Title
     type:  text
   text:
     label: Text
-    type:  textarea
-  files:
-    url:
-      label: Text
-      type:  text
+    type:  markdown

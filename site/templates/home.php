@@ -2,22 +2,17 @@
 
   <main class="main" role="main">
 
-  <div class="mood-image">
-    <?= $page->images('mood') ?>
-  </div>
-
-  <?php snippet('sponsors') ?>
-
-<!--
-    <div class="text">
-      <h1><?php echo $page->title()->html() ?></h1>
-      <?php echo $page->text()->kirbytext() ?>
+    <div class="mood-image">
+      <?= $page->images('mood') ?>
     </div>
 
-    <hr>
--->
+    <?php snippet('sponsors') ?>
 
-    <?php snippet('projects') ?>
+    <a href="<?php echo $pages->find('aktuelles/neuigkeiten')->url() ?>"><h2>Neuigkeiten aus dem Verein</h2></a>
+
+    <?php snippet('articles', array(
+      'articles' => $pages->find('aktuelles/neuigkeiten')->children()->visible()->limit(3)
+    )) ?>
 
   </main>
 

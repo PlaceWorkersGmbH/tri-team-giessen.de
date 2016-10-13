@@ -1,5 +1,6 @@
-title: Page
-pages: true
+title: Standard
+pages:
+  template: default
 files: true
 fields:
   title:
@@ -7,4 +8,4 @@ fields:
     type:  text
   text:
     label: Text
-    type:  textarea
+    type:  markdown

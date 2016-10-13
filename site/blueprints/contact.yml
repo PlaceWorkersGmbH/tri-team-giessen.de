@@ -1,0 +1,14 @@
+title: Standard
+pages:
+  template: default
+files: true
+fields:
+  title:
+    label: Title
+    type:  text
+  text:
+    label: Text
+    type:  markdown
+  email:
+    label: Empfänger des Kontakt-Formulars
+    type:  email
