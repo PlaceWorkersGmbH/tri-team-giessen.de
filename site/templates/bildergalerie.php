@@ -11,8 +11,8 @@
       <?php if ($page->hasImages()): ?>
         <div class="gallery cards">
         <?php foreach ($page->images() as $image): ?>
-          <a href="<?= $image->url() ?>" class="image magnet" data-lightbox="gallery">
-            <img src="<?= $image->url() ?>">
+          <a href="<?= $image->url() ?>" class="image" data-lightbox="gallery">
+            <img class="magnet" src="<?= $image->url() ?>">
           </a>
         <?php endforeach ?>
         </div>
