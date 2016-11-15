@@ -1,0 +1,17 @@
+Title: Triathlon-Team Giessen e.V.
+
+----
+
+Author: 
+
+----
+
+Description: 
+
+----
+
+Keywords: Kirby,CMS,file-based
+
+----
+
+Copyright: © (date: Year) Triathlon-Team Giessen e.V.
