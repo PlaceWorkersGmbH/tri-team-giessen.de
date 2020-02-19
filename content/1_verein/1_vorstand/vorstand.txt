@@ -1,0 +1,60 @@
+Title: Vorstand
+
+----
+
+Text: ### Vorstand des Triathlon-Team Giessen e.V.
+
+----
+
+Members: 
+
+- 
+  title: Vorsitzender des Vereins
+  firstname: Philipp
+  lastname: Neuhaus
+  street: ""
+  plz: ""
+  city: ""
+  mobile: ""
+  email: ph.neuhaus(at)gmx.de
+  image: p-neuhaus.jpg
+- 
+  title: 1. stellvertretender Vorsitzender
+  firstname: Tabea
+  lastname: Schuh
+  street: ""
+  plz: ""
+  city: ""
+  mobile: ""
+  email: Tabea.Schuh(at)gmx.de
+  image: ""
+- 
+  title: 2. stellvertretender Vorsitzender
+  firstname: Frank
+  lastname: Lotz
+  street: ""
+  plz: ""
+  city: ""
+  mobile: ""
+  email: frank.lotz(at)gmail.com
+  image: ""
+- 
+  title: Schriftführer
+  firstname: Max
+  lastname: Möscheid
+  street: ""
+  plz: ""
+  city: ""
+  mobile: ""
+  email: max-moe(at)outlook.de
+  image: ""
+- 
+  title: Kassenwart
+  firstname: Ralf
+  lastname: Valentin
+  street: ""
+  plz: ""
+  city: ""
+  mobile: ""
+  email: valentin_ralf(at)hotmail.com
+  image: ""

@@ -5,14 +5,14 @@
     <div class="image">
   <?php endif ?>
   <?php if ($image): ?>
-    <?= thumb($image, array('width' => 700, 'height' => 420, 'crop' => true)) ?>
+    <?= $image->crop(700, 420); ?>
   <?php endif ?>
   <?php if ($link && $link != ''): ?>
     </a>
   <?php else: ?>
     </div>
   <?php endif ?>
-  <h5><?= $item->date('d.m.Y') ?></h5>
+  <h5><?= $item->date()->toDate('d.m.Y') ?></h5>
   <h3>
     <?php if ($link && $link != ''): ?>
       <a href="<?php echo $link ?>">

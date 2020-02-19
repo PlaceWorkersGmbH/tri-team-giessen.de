@@ -1,0 +1,34 @@
+title: Article
+
+status:
+  draft:
+    label: Entwurf
+  listed:
+    label: Veröffentlicht
+
+columns:
+  main:
+    width: 2/3
+    fields:
+      subtitle:
+        label: Untertitel
+        type:  textarea
+        buttons: false
+      text:
+        label: Text
+        type:  textarea
+
+  sidebar:
+    width: 1/3
+    sections:
+      meta:
+        type: fields
+        fields:
+          date:
+            label: Datum
+            type:  date
+            time: false
+            default: now
+          images:
+            label: Bilder
+            type: files

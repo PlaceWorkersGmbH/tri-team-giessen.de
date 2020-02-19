@@ -1,0 +1,12 @@
+title: Home
+preset: page
+options:
+  changeTemplate: true 
+
+fields:
+  title:
+    label: Title
+    type:  text
+  text:
+    label: Text
+    type:  textarea

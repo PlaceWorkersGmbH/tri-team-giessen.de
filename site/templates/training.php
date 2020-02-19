@@ -1,5 +1,4 @@
 <?php snippet('header') ?>
-  <hr style="background: #6c888f; height: 2px; margin-bottom: 2em">
 
   <main class="main two-col-layout" role="main">
 
@@ -22,7 +21,7 @@
         <?php foreach ($page->beader()->toStructure() as $bad): ?>
           <?php snippet("card", array(
             'item' => $bad,
-            'image' => $page->images()->find($bad->image()),
+            'image' => $bad->image()->toFile(),
             'text' => $bad->text()->kirbytext(),
             'link' => $bad->link(),
             'linktext' => "Link: ".parse_url($bad->link(), PHP_URL_HOST)
