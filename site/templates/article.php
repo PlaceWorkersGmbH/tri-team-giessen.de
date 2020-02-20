@@ -1,15 +1,14 @@
 <?php snippet('header') ?>
-  <hr style="background: #6c888f; height: 2px; margin-bottom: 2em">
 
   <main class="main" role="main">
-    <div>
-      <?php echo $page->date('d.m.Y') ?>
-      <h2><?php echo $page->title()->html() ?></h2>
-    </div>
     <div class="article-layout">
       <div class="text">
+        <div>
+          <?= $page->date()->toDate('d.m.Y') ?>
+          <h2><?php echo $page->title()->html() ?></h2>
+        </div>
         <div class="subtitle">
-          <?php echo $page->subtitle()->kirbytext(false) ?>
+          <?php echo $page->subtitle()->kirbytext() ?>
         </div>
         <?php echo $page->text()->kirbytext() ?>
       </div>

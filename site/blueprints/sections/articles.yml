@@ -1,0 +1,6 @@
+type: pages
+headline: Articles
+info: "{{ page.date.toDate('d.m.Y') }}"
+template: article
+empty: Keine Artikel vorhanden
+sortBy: date desc

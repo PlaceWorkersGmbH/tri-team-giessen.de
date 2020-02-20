@@ -1,0 +1,2 @@
+842fc475349f47c1d8a7db08d85bbeaf34f3c005d0bcdf8418abe9ac7886086b
+a:7:{s:9:"startTime";i:1582123967;s:10:"expiryTime";i:1582131167;s:8:"duration";i:7200;s:7:"timeout";i:1800;s:12:"lastActivity";i:1582123967;s:9:"renewable";b:1;s:4:"data";a:1:{s:4:"csrf";s:64:"91fb370514558a17cc5e89d96196d66d2363e4270448a9e25ca79472e035dd47";}}

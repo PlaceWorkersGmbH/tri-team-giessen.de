@@ -1,14 +1,3 @@
-/*
-
-Kirby Starterkit
-
-Author: Bastian Allgeier / Sascha Lack
-URL:    http://getkirby.com
-Email:  support@getkirby.com
-
-*/
-
-
 /* Source Sans Pro
 -------------------------------------------------- */
 @font-face {
@@ -124,15 +113,11 @@ html {
   -ms-text-size-adjust: 100%;
 }
 body {
-  margin: 0 auto;
   font-size: 1.1em;
   line-height: 1.5em;
-  padding: 1.5em;
-  max-width: 70em;
   background: #fff;
   color: #222;
 }
-
 
 
 /* Header
@@ -167,6 +152,8 @@ body {
 }
 .menu .active {
   color: #DB5461;
+  border-radius: 4px;
+  background: #e8f4f7;
 }
 .menu li {
   list-style: none;
@@ -182,9 +169,6 @@ body {
 
 
 @media screen and (min-width: 40em) {
-  body {
-    padding: 3em;
-  }
   .logo {
     float: left;
   }
@@ -216,7 +200,7 @@ h1 {
 h2 {
   font-size: 2.2em;
   line-height: 1.25em;
-  font-weight: 300;
+  font-weight: 600;
   margin-bottom: .5em;
   color: #6c888f;
 }
@@ -235,14 +219,28 @@ h4 {
 }
 h1 a, h2 a, h3 a, h4 a {
   color: inherit;
+  border: 0 !important;
 }
 
-
+/* Wrapper
+-------------------------------------------------- */
+.wrapper {
+  margin: 0 auto;
+  padding: 1.5em;
+  max-width: 75em;
+}
+@media screen and (min-width: 40em) {
+  .wrapper {
+    padding: 3em;
+  }
+}
 
 /* Main
 -------------------------------------------------- */
 .main {
-  padding-bottom: 1.5em;
+  padding: 1.5em 0;
+  padding-top: 2em;
+  border-bottom: 2px solid #6c888f;
 }
 .main hr {
   margin: 3em 0;
@@ -330,10 +328,16 @@ h1 a, h2 a, h3 a, h4 a {
   margin-bottom: 2em;
   background: #f3f3f3;
   padding: 0.6em;
+  justify-content: center;
 }
-
 .sponsors .sponsor {
-  flex: 1 1 auto;
+    flex: 1 1 auto;
+}
+@media screen and (min-width: 40em) {
+  .sponsors .sponsor {
+    flex-basis: 16.66666667%;
+    max-width: 16.66666667%;
+  }
 }
 .sponsors .sponsor img {
   margin: 0.2em auto;
@@ -362,19 +366,49 @@ h1 a, h2 a, h3 a, h4 a {
 /* Footer
 -------------------------------------------------- */
 .footer {
-  border-top: 2px solid #6c888f;
-  padding: 1em 0 6em;
-  font-size: .8em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2em 0 6em;
+}
+.footer > * {
+  flex: 0 0 auto;
+}
+.footer a {
+  color: #6c888f;
 }
 .copyright {
-  float: left;
+  font-size: .8em;
+}
+.facebook {
+
+  margin-top: 1.5em;
+}
+.facebook svg {
+  fill: #6c888f;
+  width: 50px;
+  height: 50px;
 }
 .colophon {
-  float: right;
+  margin-top: 1.5em;
+}
+.colophon li {
+  list-style: none;
 }
 .colophon a b {
   color: #6c888f;
   padding-left: .25em;
+}
+@media screen and (min-width: 40em) {
+  .footer {
+    flex-direction: row;
+  }
+  .facebook {
+    margin-top: 0;
+  }
+  .colophon {
+    margin-top: 0;
+  }
 }
 
 
@@ -403,7 +437,15 @@ h1 a, h2 a, h3 a, h4 a {
 -------------------------------------------------- */
 
 .member img {
-  float: right;
+  float: left;
+}
+
+.member .image {
+  flex: 0 1 auto;
+  overflow: hidden;
+  border-radius: 4px;
+  margin-bottom: 1.5em;
+  margin-right: 1.5em;
 }
 
 
@@ -432,20 +474,38 @@ a.image {
   border: none;
 }
 a.image img {
+  transition: 0.2s;
   border-radius: 4px;
 }
-
-/* magnet
--------------------------------------------------- */
-
-.magnet {
-  transition: 0.2s;
-  cursor: pointer;
-}
-.magnet:hover {
+a.image:hover img {
   box-shadow: 0 0.3em 20px rgba(0,0,0,.3);
   transform: translateY(-0.3em);
 }
+
+/* Bad
+-------------------------------------------------- */
+
+/*.cards {
+  margin: 0 -2em;
+}
+.cards > * {
+  padding: 1em;
+  margin: 0 1em 1em;
+  border-radius: 4px;
+}
+a.card {
+  display: block;
+  border: none;
+}
+.card {
+  background: #fff;
+  transition: 0.2s;
+}
+.card:hover {
+  box-shadow: 0 0.3em 20px rgba(0,0,0,.3);
+  transform: translateY(-0.3em);
+}
+*/
 
 
 /* Two-Col-Layout
@@ -454,16 +514,13 @@ a.image img {
 .two-col-layout {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 -1em;
-}
-.two-col-layout > * {
-  flex: 1 1 16em;
-  margin: 0 1em;
 }
 .two-col-layout .submenu {
-  flex: 0 0 10em;
-  min-width: 10em;
+  flex: 0 0 12em;
+  min-width: 12em;
   margin-right: 2em;
+  position: -webkit-sticky;
+  position: sticky;
 }
 .two-col-layout .text {
   flex: 1 1 30em;
@@ -509,18 +566,14 @@ a.image img {
 }
 .pagination a {
   display: block;
-/*  background: #6c888f;
+  background: #6c888f;
   border: none;
   color: #fff;
-  */
-  border: 1px solid #6c888f;
-  transition: 0.3s;
+  transition: transform 0.3s;
   border-radius: 4px;
 }
 .pagination a:hover {
-  background: #eee;
   color: #fff;
-  background: #DB5461;
 }
 .pagination a.prev:hover {
   transform: translateX(0.4em);
@@ -530,62 +583,4 @@ a.image img {
 }
 .pagination a.next:hover {
   transform: translateX(-0.3em);
-}
-
-/* form
--------------------------------------------------- */
-.uniform__potty {
-  display: none;
-}
-form label,
-form input,
-form textarea {
-  display: block;
-  width: 100%;
-}
-label,
-button {
-  font-size: 1em;
-  font-weight: bold;
-}
-textarea {
-  min-height: 11em;
-  resize: vertical;
-}
-.success {
-  background: #44633F;
-  color: white;
-  padding: 0.5em;
-}
-.error {
-  background: #DB5461;
-  color: white;
-  padding: 0.5em;
-}
-input,
-textarea {
-  font-size: 0.9em;
-}
-input,
-button,
-textarea {
-  border: 1px solid #e0e0e0;
-  background: #f3f3f3;
-  padding: 0.5em;
-  margin: 0.5em 0;
-}
-.formbox {
-  margin-bottom: 1em;
-}
-button {
-  background: #6c888f;
-  background-image: linear-gradient(#6c888f, #5b7379);
-  border-color: #5b7379;
-  color: #fff;
-  float: right;
-  padding-left: 2em;
-  padding-right: 2em;
-}
-form button {
-  float: right;
 }

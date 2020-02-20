@@ -1,0 +1,49 @@
+title: Vorstand
+
+columns:
+  main:
+    fields:
+      title:
+        label: Title
+        type:  text
+      text:
+        label: Text
+        type:  textarea
+      members:
+        label: Mitglieder
+        type:  structure
+        style: table
+        fields:
+          title:
+            label: Titel / Aufgabe
+            type:  text
+          firstname:
+            label: Vorname
+            type:  text
+            width: 1/2
+          lastname:
+            label: Nachname
+            type:  text
+            width: 1/2
+          street:
+            label: Straße
+            type:  text
+          plz:
+            label: PLZ
+            type:  text
+            width: 1/2
+          city:
+            label: Ort
+            type:  text
+            width: 1/2
+          mobile:
+            label: Mobil
+            type:  text
+            width: 1/2
+          email:
+            label: E-Mail
+            type:  text
+            width: 1/2
+          image:
+            label: Image
+            type:  files

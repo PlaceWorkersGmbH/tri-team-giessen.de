@@ -1,0 +1,13 @@
+title: Articles
+
+preset: pages
+
+drafts:
+  extends: sections/articles
+  headline: Entwürfe
+  status: draft
+
+listed:
+  extends: sections/articles
+  headline: Veröffentlicht
+  status: listed

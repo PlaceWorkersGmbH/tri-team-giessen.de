@@ -20,11 +20,12 @@
 </head>
 <body>
 
-  <header class="header cf" role="banner">
-    <h1 class="logo">
-      <a href="<?php echo url() ?>" alt="Triathlon Team Giessen e.V.">
-        <img src="<?php echo url('assets/images/triathlon-team-giessen.png') ?>" alt="<?php echo $site->title()->html() ?>" />
-      </a>
-    </h1>
-    <?php snippet('menu') ?>
-  </header>
+  <div class="wrapper">
+    <header class="header cf" role="banner">
+      <h1 class="logo">
+        <a href="<?php echo url() ?>" alt="Triathlon Team Giessen e.V.">
+          <img src="<?php echo url('assets/images/triathlon-team-giessen.png') ?>" alt="<?php echo $site->title()->html() ?>" />
+        </a>
+      </h1>
+      <?php snippet('menu') ?>
+    </header>
